@@ -1,3 +1,5 @@
+// set NODE_OPTIONS=--openssl-legacy-provider
+// "start": "react-scripts start",
 import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -63,7 +65,7 @@ return(
 <Col id='sortingVisualizer'><SortingVisualizer visualizerDataHandler={this.visualizerDataHandler} controllerData={this.state.default}></SortingVisualizer></Col>
 </Row>
 <Row xl={1} lg={1} md={1} sm={1} xs={1}>
-<Col><h6>Author : Akshat Jain & Ashutosh Gautam</h6></Col>
+<Col><h6></h6></Col>
 </Row>
 </Container>
 </div>
